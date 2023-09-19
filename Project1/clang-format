@@ -3,19 +3,13 @@ Language : Cpp
 Standard : Latest
 
 AlignConsecutiveMacros: AcrossEmptyLines
-
 AlignConsecutiveMacros:
   Enabled: true
   AcrossEmptyLines: true
-  AcrossComments: false
-
+  AcrossComments: true
 AllowShortBlocksOnASingleLine : Empty
-
-
 BreakBeforeBraces: Custom
 BraceWrapping:
     AfterCaseLabel: true
     AfterClass: true
 
-TabWidth: 4
-UseTab: Never
